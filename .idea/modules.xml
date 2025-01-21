@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Study/ExecptionHandeling/ExecptionHandeling.iml" filepath="$PROJECT_DIR$/Study/ExecptionHandeling/ExecptionHandeling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StarPattern/StarPattern.iml" filepath="$PROJECT_DIR$/StarPattern/StarPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Study/Study.iml" filepath="$PROJECT_DIR$/Study/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Study/collections/collections.iml" filepath="$PROJECT_DIR$/Study/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaCodess.iml" filepath="$PROJECT_DIR$/javaCodess.iml" />
+    </modules>
+  </component>
+</project>
