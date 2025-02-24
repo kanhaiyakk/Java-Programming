@@ -37,7 +37,7 @@ public class MostFrequentCharacter {
     //    }
 
     public static void main(String[] args) {
-        String s = "abcccdddaaa";
+        String s = "abccccddddaaaa";
         char result = mostChar(s);
         System.out.println("Max occurring character: " + result);
     }

@@ -2,15 +2,34 @@ package arrayCodes;
 
 public class KadansMaxSubArraySum {
     public static int maxSubArraySum(int[] arr){
-        int res=arr[0];
+        //more optimal solution
+        int maxSum=Integer.MIN_VALUE;
+
+        int sum=0;
         for (int i = 0; i < arr.length; i++) {
-            int currSum=0;
-            for (int j = i; j < arr.length; j++) {
-                currSum=currSum+arr[j];
+            sum=sum+arr[i];
+            if (sum>maxSum){
+                maxSum=sum;
             }
-            res=Math.max(res,currSum);
+            if (sum<0){
+                sum=0;
+            }
+
         }
-        return res;
+        return maxSum;
+
+
+
+
+//        int res=arr[0];
+//        for (int i = 0; i < arr.length; i++) {
+//            int currSum=0;
+//            for (int j = i; j < arr.length; j++) {
+//                currSum=currSum+arr[j];
+//            }
+//            res=Math.max(res,currSum);
+//        }
+//        return res;
     }
 
     public static void main(String[] args) {

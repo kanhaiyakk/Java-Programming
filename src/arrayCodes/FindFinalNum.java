@@ -16,9 +16,9 @@ public class FindFinalNum {
     }
 
     public static void main(String[] args) {
-        int[] nums={5,3,6,1,12};
+       // int[] nums={5,3,6,1,12};
         int[] nums1={1,3,5,7,9};
-        int original=3;
+        int original=7;
         int result=findDoubleFinal(nums1,original);
         System.out.println(result);
     }

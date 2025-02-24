@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class GraterThan50 {
+public class    GraterThan50 {
     public static void main(String[] args) {
         List<Integer> arrList= Arrays.asList(12,15,51,89,78,45,66,34,99);
         int sum=arrList.stream().filter(i -> i>50)

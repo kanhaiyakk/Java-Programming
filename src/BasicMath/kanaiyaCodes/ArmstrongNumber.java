@@ -3,7 +3,9 @@ package BasicMath.kanaiyaCodes;
 public class ArmstrongNumber {
     public static boolean isArmstrong(int num){
         int sum=0;
-        int digits = String.valueOf(num).length();
+       int digits = String.valueOf(num).length();
+       //int digits=(int) Math.log10(num)+1;
+
         int temp=num;
         while (temp>0){
             int lastdigit= temp%10;
