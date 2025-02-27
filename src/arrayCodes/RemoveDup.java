@@ -25,7 +25,7 @@ public class RemoveDup {
         int k= removeDuplicate(arr);
 
         for (int i = 0; i < k; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
     }
 }
