@@ -1,6 +1,6 @@
 package LinkedList;
 class ListNode {
-      int val;
+     int val;
      ListNode next;
       ListNode() {}
       ListNode(int val) { this.val = val; }

@@ -23,7 +23,7 @@ public class SearchIncertPosition {
 
     public static void main(String[] args) {
         int[] nums={1, 3, 5, 6,9,17,65,12};
-        int target=9;
+        int target=65;
         int result = searchIndex(nums,target);
         System.out.println(result);
     }

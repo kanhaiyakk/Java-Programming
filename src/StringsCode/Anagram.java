@@ -17,7 +17,7 @@ public class Anagram {
 
     public static void main(String[] args) {
         String s1="geeks";
-        String s2="kseek";
+        String s2="kseeg";
         System.out.println(isAnagram(s1,s2));
     }
 }

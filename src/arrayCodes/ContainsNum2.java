@@ -17,7 +17,7 @@ public class ContainsNum2 {
 
     public static void main(String[] args) {
         int k=2;
-        int[] nums={1,2,3,1,2,3};
+        int[] nums={1,2,1,3,2,3};
         boolean result=contains(nums,k);
         System.out.println(result);
     }

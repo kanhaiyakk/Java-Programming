@@ -3,7 +3,7 @@ package StringsCode;
 import java.util.HashMap;
 import java.util.Map;
 //To check whether a given string can be rearranged to form a palindrome
-public class IsRearrangeToPlaindrome {
+public class    IsRearrangeToPlaindrome {
     public static boolean isConvertedToPalindrome(String str){
         Map<Character,Integer> map=new HashMap<>();
         for (char ch:str.toCharArray()){

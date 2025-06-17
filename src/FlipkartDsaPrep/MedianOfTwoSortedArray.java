@@ -21,7 +21,7 @@ public class MedianOfTwoSortedArray {
         }else {
             int mid1=margeArr[(size/2)-1];
             int mid2=margeArr[size/2];
-            return ((double) mid1)+((double)mid2)/2.0;
+            return ((double)(mid1 + mid2)) / 2.0;
         }
     }
 
